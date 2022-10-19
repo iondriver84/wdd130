@@ -2,8 +2,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.google.com/specimen/STIX+Two+Text?category=Serif');
-@import url('https://fonts.google.com/specimen/Salsa?query=o&category=Display');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Macondo+Swash+Caps&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #273F27   ;
