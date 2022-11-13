@@ -151,6 +151,13 @@ footer .social img{
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    color:#F1EFE4
+}
+.main-header{
+    color:#F1EFE4;
+    margin:0;
+    text-align:center;
+    margin-bottom: -150px;
 }
 .card-img{
     border: 10px solid #0B1B1E;
@@ -180,6 +187,7 @@ footer .social img{
     grid-column: 8/10;
     grid-row: 2/3;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
