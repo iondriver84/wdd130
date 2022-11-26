@@ -49,10 +49,10 @@ nav a:hover{
     grid-row:1/2;
     color:#F1EFE4;
     margin-top: 100px;
-    text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
+    text-shadow: -2px 2px 2px #000,
+				  2px 2px 2px #000,
+				  2px -2px 0 #000,
+				  -2px -2px 0 #000;
 }
 #hero-msg h1, #hero-msg h4{
     text-align:center;
