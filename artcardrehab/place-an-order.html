@@ -3,23 +3,23 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home</title>
+    <title>Place Order</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
     <script src='main.js'></script>
 </head>
 <body>
     <div id="content">    
         <header>
             <a href="index.html" id="logo_link">
-                <img class="logo" src="images/Logo.jpg" alt="Art Card Rehab Logo">
-                <h1>Art Card Rehab</h1>
+                <img class="logo" src="images/acr_logo1.jpg" alt="Art Card Rehab Logo">
+                
             </a>
             <nav>
                 <a href="index.html">Home</a>
                 <a href="walkthrough.html">Walkthrough</a>
                 <a href="place-an-order.html">Place an Order</a>
-                <a href="site-plan.html">Site Plan</a>
+                
             </nav>
         </header>
         <div id="hero">
@@ -27,43 +27,63 @@
                 <img id="hero-img" src="images/mtg_stained_glass_banner.jpg" alt="stained glass mtg Art">
             </div>
             <section id="hero-msg">
-                <h1 class="walkthrough-title">Orders</h1>
+                <h1 class="walkthrough-title">Placing an Order</h1>
                 <h4>Ordering Information</h4>
                 <div class="button-box">
                     <a class="top-button" href="index.html">Home</a>
                 </div>
             </section>
         </div>        
-        <div id="site-introduction">
+        <div id="order-instructions">
             <p>Here's everything you need to know to order your own custom MTG Art Card Labels.
-                <br>Fill out the order form at the bottom of the page. Please list your label requests based on the name of the card. Default order is the name plate of the card only.
+                <br>
+                <br>Please email your label order to acrorders@gmail.com. Please list your label requests based on the name of the card. Default order is the name plate of the card only.
+                <br>
                 <br>Additional stickers (power/toughness, ability text, etc) should be listed under the title of the card they belong to.
+                <br>
                 <br>Additional requests that do not fit these criteria place at bottom of order with as much detail as possible. Additional fees may apply.
             </p>
         </div>
-        <main class="card-gallery">
-            <div class="page-content">
-                <section class = "pricing-grid">
-                    <img class="vertical" src="images/kaito_shizuki.jpg" alt="Kaito Shizuki">
-                    <h2 class = label>Kaito Shizuki</h2>
-                    <h2 class = label>Pricing Chart</h2>
-                    <p>1.$1.00 per sticker<br>2.$8 per half a sticker sheet(approx 10 stickers)<br>3.$15 per full sheet(8.5 x 11 page, approx 20 stickers)<br>4.Price varies for custom requests</p>
+        <main class="order-card-gallery">
+            <div class="order-page-content">
+                <section id = "pricing-image">
+                    <img class="horizontal2" src="images/deserted_beach.jpg" alt="Kaito Shizuki">
+                    <h2 class = label>Deserted Beach</h2>
                 </section>
-                <section class="delivery-methods-grid">
-                    <img class="vertical" src="images/by_invitation_only.jpg" alt="By Invitation Only">
-                    <h2 class = label>By Invitation Only</h2>
-                    <h2 class = label>Shipping/Pickup Information</h2>
-                    <p>1.Ships to anywhere within the US. Standard shipping rates apply.<br>2.Alternative pickup can be arranged at Oasis Games, 300 E 200 S Salt Lake City, UT</p>
+                <section id = pricing-info> 
+                    <h2 class = label>Pricing Chart</h2>
+                    <p>1. $1.00 per sticker.
+                        <br>
+                        <br>2. $8 per half a sticker sheet(approx 10 stickers).
+                        <br>
+                        <br>3.$15 per full sheet(8.5 x 11 page, approx 20 stickers).
+                        <br>
+                        <br>4.Price varies for custom requests</p>
                 </section>
 
-                <section class="payment-options-grid">
-                    <img class="horizontal" src="images/haunted_ridge.jpg" alt="Haunted Ridge">
+                <section id="delivery-methods-image">
+                    <img class="horizontal2" src="images/by_invitation_only.jpg" alt="By Invitation Only">
+                    <h2 class = label>By Invitation Only</h2>
+                </section>
+                <section id = "delivery-methods-info">  
+                    <h2 class = label>Shipping/Pickup Information</h2>
+                    <p>1. Ships to anywhere within the US. Standard shipping rates apply.
+                        <br>
+                        <br>2. Alternative pickup can be arranged at Oasis Games, 300 E 200 S Salt Lake City, UT</p>
+                </section>
+
+                <section id="payment-options-image">
+                    <img class="horizontal2" src="images/haunted_ridge.jpg" alt="Haunted Ridge">
                     <h2 class = label>Haunted Ridge</h2>
+                </section>
+                <section id = "payment-options-info">    
                     <h2 class = label>Payment Options</h2>
-                    <p>Payment will be made upon order. Your order will not ship unless payment has not been recieved.
-                        <br>Payment can be made through the following options:
-                        <br><a href="paypal.com">Paypal</a>
-                        <br><a href="cash.app">Cash App</a>
+                    <p>1. Payment will be made upon order. Your order will not ship unless payment has not been recieved.
+                        <br>
+                        <br>2. Payment can be made through the following options:
+                        <br>
+                        <br><a class="payment-link" href="paypal.com">Paypal</a>
+                        <br><a class="payment-link" href="cash.app">Cash App</a>
                     </p>
                 </section>
             </div>    

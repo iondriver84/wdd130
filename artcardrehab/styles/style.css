@@ -12,6 +12,11 @@ header{
     font-family: "Ruslan Display", serif;
     background:#787B93;
 }
+p{
+    font-family:"Neuton", "Volkhov", serif;
+    color:#F1EFE4;
+    text-shadow: 1px 1px 1px #000;
+}
 .logo{
     margin:0 auto;
     border-radius: 12%;
@@ -192,4 +197,59 @@ footer a:hover{
     padding-left:10%;
     text-shadow: 1px 1px 1px #000;
     
+}
+/* Order Page specific CSS */
+
+#order-instructions{
+    margin-top:1%;
+    margin-left: 20%;
+    text-align:center;
+    font-size: 2em;
+    text-justify: auto;
+    width: 60%;
+    background-color:#787B93;
+    padding: 1%;
+    border-radius: 1%;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+}
+.order-page-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #787B93;
+    width: 80%;
+    margin-left:10%;
+    margin-top: 3%;
+    border-radius: 1%;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+    text-align:center;
+    padding-bottom:2%;
+    
+}
+.order-page-content img{
+    
+}
+.order-page-content h2{
+    font-size: 2.2em;
+}
+.order-page-content p{
+    text-align: left;
+    margin-left:20%;
+    text-justify: auto;
+    font-size: 1.7em;
+    padding-right:5%;
+}
+.horizontal2{
+    width:80%;
+    margin-top: 5%;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000);
+    border-radius: 5%;
+}
+.payment-link{
+    font-size: 1.6em;
+    margin-left:25%;
+    color: #E89687;
+    text-decoration:none;
+}
+.payment-link:hover{
+    color:#00667a;
 }
